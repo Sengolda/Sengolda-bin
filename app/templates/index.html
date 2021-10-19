@@ -9,6 +9,7 @@
 
     <link href="https://cdn.jsdelivr.net/npm/daisyui@1.14.4/dist/full.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2/dist/tailwind.min.css" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/main.css' )}}" rel="stylesheet">
 </head>
 
 <body>
@@ -20,42 +21,5 @@
 
     <a href="{{paste_url}}"><button  class="btn btn-ghost">See ur paste (Click after clicking new paste)</button></a>
 
-    <style>
-    
-    body {
-        font-family: Arial, Helvetica, sans-serif;
-        margin: 0;
-        padding: 0;
-    }
-
-    body, input {
-        font-size: 80%;
-    }
-
-    textarea, pre {
-        font-family: 'Consolas', monospace; 
-        font-size: 20px;
-        background: #eee; 
-        padding: 0; 
-        margin: 0;
-    }
-
-    p {
-        font-size: 18px;
-        border-radius: 10px;
-    }
-
-    .code {
-        background: #eee; 
-        margin: 10px -30px; 
-        padding: 10px 30px;
-    }
-
-    h2  { 
-        font-weight: normal; 
-        margin: 0; 
-    }
-
-    </style>
 </body>
 </html>

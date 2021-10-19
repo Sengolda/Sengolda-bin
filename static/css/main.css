@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body, input {
+    font-size: 80%;
+}
+
+textarea, pre {
+    font-family: 'Consolas', monospace; 
+    font-size: 20px;
+    background: #eee; 
+    padding: 0; 
+    margin: 0;
+}
+
+p {
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.code {
+    background: #eee; 
+    margin: 10px -30px; 
+    padding: 10px 30px;
+}
+
+h2  { 
+    font-weight: normal; 
+    margin: 0; 
+}
